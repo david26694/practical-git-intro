@@ -37,6 +37,13 @@ My view:
 
 ## Why git?
 
+My life before git:
+
 ![My life before git](life_before_git.png)
 
+- Git simplifies handling of different versions of a file.
+
+- Nothing is ever lost, so you can be much more fearless.
+
 ---
+
