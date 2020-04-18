@@ -140,6 +140,8 @@ knitr::include_graphics("git_everthing_is_local.png")
 
 - When collaborating, git is almost necessary
 
+- Read about dvc (data version control)
+
 ---
 
 ## References
