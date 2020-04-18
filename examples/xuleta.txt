@@ -1,0 +1,4 @@
+
+
+# Tirar enrere 
+git reset --hard HEAD
