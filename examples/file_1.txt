@@ -5,5 +5,6 @@ tercera versio s'ho carrega tot
 
 Hola soy Leo
 
-Estic a una branca, i tambe toco aixo
+Estic a una branca, i toco aixo
+
 
