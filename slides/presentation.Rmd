@@ -1,0 +1,42 @@
+---
+title: "Practical intro to git"
+subtitle: "github.com/david26694/practical-git-intro"
+author: "David Masip"
+institute: "Pagantis"
+date: "2020/04/24"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: [center, middle]
+      
+---
+
+## Contents
+
+- Introduction to git
+
+- Introduction to github
+
+---
+
+## What is git?
+
+Wikipedia:
+
+> Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
+
+My view:
+
+> Git is a system to track changes in any set of files.
+
+---
+
+## Why git?
+
+![My life before git](life_before_git.png)
+
+---
