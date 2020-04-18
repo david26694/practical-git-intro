@@ -19,3 +19,4 @@ git checkout -b toca_fitxer_1
 git checkout master
 -- Comits master
 git merge toca_fitxer_1
+esc -> :qa!
