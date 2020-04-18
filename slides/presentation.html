@@ -36,6 +36,8 @@ class: center, middle, title-slide
 
 Github is a platform that has Git running on its backend.
 
+You can use Git without using Github.
+
 ---
 
 ## What is git?
@@ -56,9 +58,11 @@ My life before git:
 
 ![My life before git](life_before_git.png)
 
+- Collaboration? 😱
+
 - Git simplifies handling of different versions of a file.
 
-- Nothing is ever lost, so you can be much more fearless.
+- Nothing is (almost) ever lost, so you can be much more fearless.
 
 ---
 
@@ -70,6 +74,15 @@ Track the differences!!
 
 - [Change from second to third version](https://github.com/david26694/practical-git-intro/commit/745d386518a5a5bd85f072032974b9e1cb42843a)
 
+---
+
+## Repositories
+
+A repository is a set of files that is versioned using git. 
+
+To create a repo, run `git init`. This creates file called `.git`.
+
+You should also create `.gitignore` file, with specific files to ignore.
 
 ---
 
@@ -98,7 +111,7 @@ Track the differences!!
 
 - `git branch la-meva-branca` : Creates branch
 - `git checkout la-meva-branca` : Goes to branch
-- `git merge` : Merges branch
+- `(master) $ git merge la-meva-branca` : Merges branch into master
 
 (Demo: create branch, do some changes, merge it, do more changes, resolve conflicts)
 
@@ -122,7 +135,7 @@ Track the differences!!
 
 - Intermediate workflow: `branch - checkout - change - checkout - merge`
 
-- God workflow: `branch - checkout - change - pull request - merge`
+- Pro workflow: `branch - checkout - change - pull request - merge`
 
 
 ---
@@ -137,11 +150,19 @@ Track the differences!!
 
 - When collaborating, git is almost necessary
 
+- Read about dvc (data version control)
+
 ---
 
 ## References
 
-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+Not many, there are 1000 resources to learn git
+
+- https://try.github.io/
+
+- https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
+
+- https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
