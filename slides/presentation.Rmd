@@ -69,7 +69,7 @@ knitr::include_graphics("git_everthing_is_local.png")
 - _git status_: Status summary
 - _git log_: Shows history of commits
 
-(Demo: add, commit, log, go back to previous commit)
+(Demo: add, commit, reset, log, go back to previous commit)
 
 ---
 
