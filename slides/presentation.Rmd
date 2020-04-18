@@ -17,9 +17,19 @@ output:
 
 ## Contents
 
+- Git and Github
+
 - Introduction to git
 
-- Introduction to github
+- Introduction to Github
+
+---
+
+## Git and Github
+
+> The key difference between Git and Github is that Git is an open-source tool developers install locally to manage source code, while Github is an online service to which developers who use Git can connect and upload or download resources.
+
+Github is a platform that has Git running on its backend.
 
 ---
 
@@ -65,11 +75,73 @@ knitr::include_graphics("git_everthing_is_local.png")
 ```
 
 
-- _git diff_: Differences between files
-- _git status_: Status summary
-- _git log_: Shows history of commits
+- `git diff` : Differences between files
+- `git status` : Status summary
+- `git log` : Shows history of commits
 
 (Demo: add, commit, reset, log, go back to previous commit)
 
 ---
 
+## Branching
+
+```{r echo=FALSE, out.width = "600px"}
+knitr::include_graphics("1_iB8lNrITmLvKeL8mnp3qAA.png")
+```
+
+---
+
+## Branching
+
+```{r echo=FALSE, out.width = "400px"}
+knitr::include_graphics("1_WH75kMtJErLpjflIWwduSg.png")
+```
+
+- `git branch la-meva-branca` : Creates branch
+- `git checkout la-meva-branca` : Goes to branch
+- `git merge` : Merges branch
+
+(Demo: create branch, do some changes, merge it, do more changes, resolve conflicts)
+
+---
+
+## Collaborating (Github)
+
+```{r echo=FALSE, out.width = "400px"}
+knitr::include_graphics("git_everthing_is_local.png")
+```
+
+- `git clone el-meu-link`: Copy a github repository in your pc
+- `git pull` : Get the version that is in github
+- `git push` : Send your version to github
+
+(Demo: push results, change something in repo, pull results, Leo)
+
+---
+
+## Summary
+
+- Basic workflow: `pull - add - commit - push`
+
+- Intermediate workflow: `branch - checkout - change - checkout - merge`
+
+- God workflow: `branch - checkout - change - pull request - merge`
+
+
+---
+
+## Conclusions
+
+- Git has some barrier to entry
+
+- Git will cause you issues in the beginning
+
+- Git will simplify your life in the long run
+
+- When collaborating, git is almost necessary
+
+---
+
+## References
+
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging

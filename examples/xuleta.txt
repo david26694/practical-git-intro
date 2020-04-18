@@ -9,3 +9,13 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 # Go back to previous commit (dangerous!)
 git reset --hard d62ccf96c9de62b
 git push -f
+
+
+# Branches
+
+git branch toca_fitxer_1
+git checkout -b toca_fitxer_1
+-- Comits
+git checkout master
+-- Comits master
+git merge toca_fitxer_1
