@@ -1,6 +1,2 @@
 
-
-primera versio
-
-
-afegim segona versio
+tercera versio s'ho carrega tot
