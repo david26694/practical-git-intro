@@ -1,4 +1,4 @@
 
 
-# Tirar enrere 
+# Tirar enrere abans de commit
 git reset --hard HEAD
