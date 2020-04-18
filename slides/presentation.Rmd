@@ -47,3 +47,29 @@ My life before git:
 
 ---
 
+## Git magic
+
+Track the differences!!
+
+- [Change from first to second version](https://github.com/david26694/practical-git-intro/commit/45551a07d2ee8dd0e408c969fb78e7e6f467db57)
+
+- [Change from second to third version](https://github.com/david26694/practical-git-intro/commit/745d386518a5a5bd85f072032974b9e1cb42843a)
+
+
+---
+
+## Basic git commands
+
+```{r echo=FALSE, out.width = "400px"}
+knitr::include_graphics("git_everthing_is_local.png")
+```
+
+
+- _git diff_: Differences between files
+- _git status_: Status summary
+- _git log_: Shows history of commits
+
+(Demo: add, commit, log, go back to previous commit)
+
+---
+
