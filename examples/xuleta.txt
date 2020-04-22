@@ -8,10 +8,7 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 
 # Go back to previous commit (dangerous!)
 git reset --hard d62ccf96c9de62b
-<<<<<<< HEAD
 git reset d62ccf96c9de62b
-=======
->>>>>>> ddfcddd8eb22f4a040e2c4bb3341a91d4824d47f
 git push -f
 
 
