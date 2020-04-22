@@ -7,11 +7,8 @@ git reset --hard HEAD
 https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
 
 # Go back to previous commit (dangerous!)
-git reset --hard d62ccf96c9de62b
-<<<<<<< HEAD
-git reset d62ccf96c9de62b
-=======
->>>>>>> ddfcddd8eb22f4a040e2c4bb3341a91d4824d47f
+git reset --hard 02e6a818a0315c
+git reset 02e6a818a0315c
 git push -f
 
 
