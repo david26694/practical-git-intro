@@ -7,5 +7,8 @@ Hola soy Leo
 
 Estic a una branca, i toco aixo
 
+<<<<<<< HEAD
 More changes to delete
+=======
+>>>>>>> ddfcddd8eb22f4a040e2c4bb3341a91d4824d47f
 
