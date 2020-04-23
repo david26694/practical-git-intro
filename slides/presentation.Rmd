@@ -1,8 +1,7 @@
 ---
 title: "Practical intro to git"
 subtitle: "github.com/david26694/practical-git-intro"
-author: "David Masip"
-institute: "Pagantis"
+author: "David Masip and Carlos Mougan"
 date: "2020/04/24"
 output:
   xaringan::moon_reader:
@@ -19,9 +18,11 @@ output:
 
 - Git and Github
 
-- Introduction to git
+- Basic git workflow
 
 - Introduction to Github
+
+- Branching
 
 ---
 
@@ -96,6 +97,21 @@ knitr::include_graphics("git_everthing_is_local.png")
 
 ---
 
+
+## Collaborating (Github)
+
+```{r echo=FALSE, out.width = "400px"}
+knitr::include_graphics("git_everthing_is_local.png")
+```
+
+- `git clone el-meu-link`: Copy a github repository in your pc
+- `git pull` : Get the version that is in github
+- `git push` : Send your version to github
+
+(Demo: push results, change something in repo, pull results, Leo)
+
+---
+
 ## Branching
 
 ```{r echo=FALSE, out.width = "600px"}
@@ -115,20 +131,6 @@ knitr::include_graphics("1_WH75kMtJErLpjflIWwduSg.png")
 - `(master) $ git merge la-meva-branca` : Merges branch into master
 
 (Demo: create branch, do some changes, merge it, do more changes, resolve conflicts)
-
----
-
-## Collaborating (Github)
-
-```{r echo=FALSE, out.width = "400px"}
-knitr::include_graphics("git_everthing_is_local.png")
-```
-
-- `git clone el-meu-link`: Copy a github repository in your pc
-- `git pull` : Get the version that is in github
-- `git push` : Send your version to github
-
-(Demo: push results, change something in repo, pull results, Leo)
 
 ---
 
